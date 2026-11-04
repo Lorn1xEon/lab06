@@ -72,7 +72,7 @@ class LoginScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8),
 
-            // Кнопка переходу на екран відновлення паролю (тепер окремо!)
+            // Кнопка переходу на екран відновлення паролю
             TextButton(
               onPressed: () {
                 Navigator.push(
